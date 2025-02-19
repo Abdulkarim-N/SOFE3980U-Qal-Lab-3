@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: binarycalculator
+      app: bin-calc
   template:
     metadata:
       labels:
-        app: binarycalculator
+        app: bin-calc
     spec:
       containers:
         - image: northamerica-northeast2-docker.pkg.dev/woven-operative-451316-c7/sofe3980u/binarycalculator
